@@ -1,17 +1,4 @@
 
-![MapOS](https://raw.githubusercontent.com/RamonSilva20/mapos/master/assets/img/logo.png)
-
-![version](https://img.shields.io/badge/version-4.38.0-blue.svg?longCache=true&style=flat-square)
-![license](https://img.shields.io/badge/license-MIT-green.svg?longCache=true&style=flat-square)
-![theme](https://img.shields.io/badge/theme-Matrix--Admin-lightgrey.svg?longCache=true&style=flat-square)
-![issues](https://img.shields.io/github/issues/RamonSilva20/mapos.svg?longCache=true&style=flat-square)
-![contributors](https://img.shields.io/github/contributors/RamonSilva20/mapos.svg?longCache=true&style=flat-square)
-
-### [Feedback](https://github.com/RamonSilva20/mapos/discussions) - Vote ou sugira melhorias
-
-![Map-OS](https://raw.githubusercontent.com/RamonSilva20/mapos/master/docs/dashboard.png)
-
-### [Instalação](Instalacao_xampp_windows.md)
 
 1. Faça o download dos arquivos.
 2. Extraia o pacote e copie para seu webserver.
@@ -52,14 +39,6 @@ URL: http://localhost:8000/
     ##### Obs: Cuide da pasta `docker/data`, onde é pasta que o mysql do docker salva os arquivos. Se for deletada você perderá seu banco de dados.
     ##### Obs2: O PhpMyAdmin também e instalado e pode ser acessado em `http://localhost:8080/`.
 
-### Atualização
-
-1. Faça o backup dos arquivos e do banco de dados;
-2. Substitua os arquivos pelos da nova versão;
-3. Rode o comando `composer install --no-dev` a partir da raiz do projeto.
-4. Volte as configurações nos arquivos database.php e config.php;
-5. Logue no sistema como administrador e navegue até Configurações -> Sistema e clique no botão `Atualizar Banco de Dados` para atualizar seu banco de dados. Obs.: Também é possível atualizar o banco de dados via terminal rodando o comando `php index.php tools migrate` a partir da raiz do projeto;
-6. Pronto, sua atualização está concluída;
 
 ### Atualização (Docker)
 
@@ -71,11 +50,6 @@ URL: http://localhost:8000/
 6. Logue no sistema como administrador e navegue até Configurações -> Sistema e clique no botão `Atualizar Banco de Dados` para atualizar seu banco de dados. Obs.: Também é possível atualizar o banco de dados via terminal rodando o comando `php index.php tools migrate` a partir da raiz do projeto;
 7. Pronto, sua atualização está concluída;
 
-### Atualização via sistema
-
-1. Primeiro é necessário atualizar manualmente o sistema para a versão v4.4.0;
-2. Quando estiver nessa versão é possível atualizar o sistema clicando no botão "Atualizar Mapos" em Sistema >> Configurações;
-3. Serão baixados e atualizados todos os arquivos exceto: `config.php`, `database.php` e `email.php`;
 
 ### Comandos de terminal
 
@@ -94,23 +68,3 @@ Para listar todos os comandos de terminal disponíveis, basta executar o comando
 * PHP >= 7.3
 * MySQL
 * Composer
-
-### Doações
-
-Gosta do mapos e gostaria de contribuir com seu desenvolvimento?
-
-Doações podem ser realizadas nos links:
-* [catarse/mapos](https://www.catarse.me/mapos) - Mensal
-* [kofi/mapos](https://ko-fi.com/mapos) - Exporádica
-
-### Contribuidores
-| [<img src="https://avatars.githubusercontent.com/Pr3d4dor?s=115"><br><sub>Gianluca Bine</sub>](https://github.com/Pr3d4dor) | [<img src="https://avatars.githubusercontent.com/Henrique-Miranda?s=115"><br><sub>Henrique Miranda</sub>](https://github.com/Henrique-Miranda) | [<img src="https://avatars.githubusercontent.com/mariolucasdev?s=115"><br><sub>Mário Lucas</sub>](https://github.com/mariolucasdev) | [<img src="https://avatars.githubusercontent.com/HelanAllysson?s=115"><br><sub>Helan Allysson</sub>](https://github.com/HelanAllysson) | [<img src="https://avatars.githubusercontent.com/KansasMyers?s=115"><br><sub>KansasMyers</sub>](https://github.com/KansasMyers)
-|:-:|:-:|:-:|:-:|:-:|
-| [<img src="https://avatars.githubusercontent.com/daniellbastos?s=115"><br><sub>Daniel Bastos</sub>](https://github.com/daniellbastos) | [<img src="https://avatars.githubusercontent.com/github?s=115"><br><sub>drelldeveloper</sub>](https://github.com/drelldeveloper) | [<img src="https://avatars.githubusercontent.com/fontebasso?s=115"><br><sub>Samuel Fontebasso</sub>](https://github.com/fontebasso) | [<img src="https://avatars.githubusercontent.com/marllonferreira?s=115"><br><sub>marllonferreira</sub>](https://github.com/marllonferreira) | [<img src="https://avatars.githubusercontent.com/rodrigo3d?s=115"><br><sub>Rodrigo Ribeiro</sub>](https://github.com/rodrigo3d)
-| [<img src="https://avatars.githubusercontent.com/willph?s=115"><br><sub>Wilmerson</sub>](https://github.com/willph) | [<img src="https://avatars.githubusercontent.com/bulfaitelo?s=115"><br><sub>Thiago Rodrigues</sub>](https://github.com/bulfaitelo) | [<img src="https://avatars.githubusercontent.com/mvnp?s=115"><br><sub>Marcos Pereira</sub>](https://github.com/mvnp)| [<img src="https://avatars.githubusercontent.com/marcotuliomtb?s=115"><br><sub>Marcos</sub>](https://github.com/marcotuliomtb)| [<img src="https://avatars.githubusercontent.com/zanzoushio?s=115"><br><sub>ZanzouShio</sub>](https://github.com/ZanzouShio)
-| [<img src="https://avatars.githubusercontent.com/seitbnao?s=115"><br><sub>Djunio</sub>](https://github.com/seitbnao) | [<img src="https://avatars.githubusercontent.com/MilsonElias?s=115"><br><sub>Milson Elias</sub>](https://github.com/MilsonElias) |
-
-
-## Autor
-| [<img src="https://avatars.githubusercontent.com/RamonSilva20?s=115"><br><sub>Ramon Silva</sub>](https://github.com/RamonSilva20) |
-| :---: |
